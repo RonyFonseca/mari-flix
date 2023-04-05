@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: rgb(17, 17, 17);
+}
+
+#videos {
+    width: 950px;
+    background-color: rgba(0, 0, 0, 0.685);
+    height: 550px;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+#group-cards {
+    width: 900px; 
+    margin: auto; 
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    background-color:white;
+    padding: 10px ;
+    border-radius: 10px;
+    height: 100px;
+    width: 350px;
+    transition: 1s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2, p {
+    color: black;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.card p {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.button-play {
+    position: absolute;
+    padding: 10px;
+    border-radius: 300px;
+    right: 10px;
+}
+
+
+.link {
+    width: 20px;
+}

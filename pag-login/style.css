@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; 
+}
+
+body {
+    background-color: rgb(17, 17, 17);
+    background-image: url("../midia/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 120px;
+    margin-top: -25px
+}
+
+#menu ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+#menu ul li {
+    padding: 10px 20px;
+    transition: 1s;
+    background-color:rgba(0, 0, 0, 0.555);
+}
+
+#menu ul li:hover {
+    background-color:rgba(0, 0, 0, 0.856);
+    transform: scale(1.04);
+}
+
+#menu ul li a{
+    text-decoration: none;
+}
+
+input {
+    display: block; 
+    margin: 10px auto; 
+    width: 300px;
+    height: 30px;
+    color: black;
+}
+
+form {
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.685);
+    margin: 100px auto; 
+    width: 350px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#login,#senha,#mandar {
+    border-radius: 10px;
+    border:none;
+    padding: 10px;
+}
+
+#login {
+    color: red;
+}
+
+#senha {
+    color: red;
+}
+
+#mandar {
+    background-color: red;
+    color: white; 
+    transition: 1s;
+}
+
+#mandar:hover {
+    background-color: rgb(212, 0, 0);
+    transform: scale(1.04);
+}
+
