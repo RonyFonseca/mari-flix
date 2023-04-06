@@ -10,7 +10,7 @@ body {
 #videos {
     width: 950px;
     background-color: rgba(0, 0, 0, 0.685);
-    height: 550px;
+    height: 600px;
     margin: 100px auto;
     border-radius: 10px;
 }
@@ -30,7 +30,7 @@ body {
     background-color:white;
     padding: 10px ;
     border-radius: 10px;
-    height: 100px;
+    height: 150px;
     width: 350px;
     transition: 1s;
 }
