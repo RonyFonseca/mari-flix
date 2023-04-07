@@ -7,18 +7,15 @@ body {
     background-color: rgb(17, 17, 17);
 }
 
-#videos {
+#recados {
     width: 950px;
-    background-color: rgba(0, 0, 0, 0.685);
     height: 600px;
-    margin: 100px auto;
+    margin: 50px auto;
     border-radius: 10px;
 }
 
 #group-cards {
-    width: 900px; 
     margin: auto; 
-    padding-top: 50px;
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
@@ -27,7 +24,7 @@ body {
 
 .card {
     position: relative;
-    background-color:white;
+    background-color: rgba(0, 0, 0, 0.685);
     padding: 10px ;
     border-radius: 10px;
     height: 150px;
@@ -40,7 +37,7 @@ body {
 }
 
 .card h2, p {
-    color: black;
+    color: white;
 }
 
 .card h2 {
@@ -65,4 +62,35 @@ body {
 
 .link {
     width: 20px;
+}
+
+#menu-serie {
+    margin: 40px;
+    border-bottom: 2px solid white;
+}
+
+#menu-serie ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+#menu-serie li {
+    transition: 1s;
+}
+
+#menu-serie li:hover {
+    transform: scale(1.1);
+}
+
+#menu-serie a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 0px 5px;
+    background-color: rgba(0, 0, 0, 0.555);
+    transition: 1s;
+}
+
+#menu-serie a:hover {
+    background-color:rgba(0, 0, 0, 0.856);
 }

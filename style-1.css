@@ -6,7 +6,7 @@
 
 body {
     background-color: rgb(17, 17, 17);
-    background-image: url("../midia/Background.png");
+    background-image: url("midia/Background.png");
     background-repeat: no-repeat;
     background-size: cover;
 }

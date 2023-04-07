@@ -6,7 +6,7 @@ function enviar(){
 
 
     if(loginName.indexOf(loginDigitado) > -1 && senhas.indexOf(senhaDigitada) > -1){
-        location.href="/home/home.html";
+        location.href="home/home.html";
     }else{
         alert("Você errou alguma coisa, meu bem.");
     };
