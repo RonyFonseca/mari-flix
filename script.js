@@ -1,5 +1,5 @@
 var loginName = ['Rony', 'Marianne'];
-var senhas = ['1704'];
+var senhas = ['0417'];
 function enviar(){ 
     let loginDigitado = document.getElementById('login').value; 
     let senhaDigitada = document.getElementById('senha').value;

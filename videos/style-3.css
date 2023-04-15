@@ -1,0 +1,15 @@
+#video {
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    background-color: rgb(17, 17, 17);
+}
+
+#content-video {
+
+}
+
+
+#content-video iframe {
+    padding: 30px;
+}
